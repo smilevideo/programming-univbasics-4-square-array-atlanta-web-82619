@@ -3,7 +3,7 @@ def square_array(array)
   new = []
   while (array[c]) do
     new[c] = array[c] ** 2
-    c++
+    c += 1
   end
   
   return new
